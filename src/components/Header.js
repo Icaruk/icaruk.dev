@@ -34,11 +34,11 @@ export default class Header extends Component {
 							</li>
 							<li>
 								<a className="smoothscroll" href="#portfolio">
-									Experiencia
+									Portfolio
 								</a>
 							</li>
 							<li>
-								<a className="smoothscroll" href="#contact">
+								<a className="smoothscroll" href="#contactme">
 									Contacto
 								</a>
 							</li>
@@ -47,7 +47,7 @@ export default class Header extends Component {
 					
 					<div className="row banner">
 						<div className="banner-text">
-							<h1 className="responsive-headline">Soy Adrián "Icaruk"</h1>
+							<h1 className="responsive-headline">Soy Adrián “Icaruk”</h1>
 							<h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
 								Soy Full Stack Developer.<br/>Me gusta crear y construir, prefiero seguir aprendiendo nuevas tecnologías y no quedarme estancado. Me encantan los videojuegos, pero sobretodo crearlos.
 							</h3>

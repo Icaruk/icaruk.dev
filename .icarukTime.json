@@ -1,20 +1,30 @@
 {
-    "idleHeartbeats": 663,
-    "navigatingHeartbeats": 377,
-    "totalCodingHeartbeats": 1991,
+    "idleHeartbeats": 2416,
+    "navigatingHeartbeats": 1530,
+    "totalCodingHeartbeats": 5826,
     "languageHeartbeats": {
-        "javascript": 1896,
-        "html": 27,
-        "css": 68
+        "javascript": 3918,
+        "html": 44,
+        "css": 1140,
+        "javascriptreact": 724
     },
     "fileHeartbeats": {
         "src/resumeData.js": 44,
-        "src/components/Header.js": 499,
-        "src/components/About.js": 524,
-        "src/components/Resume.js": 804,
-        "public/index.html": 27,
+        "src/components/Header.js": 567,
+        "src/components/About.js": 539,
+        "src/components/Resume.js": 1670,
+        "public/index.html": 44,
         "public/js/init.js": 16,
-        "public/css/layout.css": 68,
-        "src/App.js": 9
+        "public/css/layout.css": 128,
+        "src/App.js": 63,
+        "src/index.css": 85,
+        "src/components/atomic/bar.jsx": 26,
+        "src/components/atomic/bar.css": 18,
+        "src/components/atomic/bar/bar.jsx": 698,
+        "src/components/atomic/bar/bar.css": 728,
+        "public/css/default.css": 181,
+        "src/components/ContactUs.js": 257,
+        "src/components/Footer.js": 341,
+        "src/components/Portfolio.js": 421
     }
 }

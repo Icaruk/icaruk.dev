@@ -1,17 +1,16 @@
 
 import React, { Component } from "react";
 
+import Bar from "../components/atomic/bar/bar";
 
 export default class Resume extends Component {
 	
 	render() {
 		
-		let resumeData = this.props.resumeData;
-		
-		
 		return (
 			
 			<section id="resume">
+				
 				<div className="row education">
 					<div className="three columns header-col">
 						<h1>
@@ -58,8 +57,7 @@ export default class Resume extends Component {
 				</div>
 				
 				
-				
-				<div className="row work">
+				{/* <div className="row work">
 					<div className="three columns header-col">
 						<h1>
 							<span>Experiencia</span>
@@ -86,8 +84,7 @@ export default class Resume extends Component {
 						
 						
 					</div>
-				</div>
-				
+				</div> */}
 				
 				
 				<div className="row skill">
@@ -97,47 +94,61 @@ export default class Resume extends Component {
 						</h1>
 					</div>
 					
-					<div className="nine columns main-col">
-						<p>Frontend</p>
+					
+					<div className="nine columns main-col float-right asd">
+						
 						
 						<div className="bars">
+							<p>Languages</p>
 							<ul className="skills">
-								{resumeData.skills &&
-									resumeData.skills.map(item => {
-										return (
-											<li>
-												<span className={`bar-expand ${item.skillname.toLowerCase()}`}></span>
-												<em>{item.skillname}</em>
-											</li>
-										);
-									})}
+							
+								<Bar name={"Javascript + ES6"} percentage={70}/>
+								<Bar name={"PHP"} percentage={40}/>
+								<Bar name={"SQF"} percentage={99}/>
+							
+								
 							</ul>
 						</div>
-					</div>
-					
-					
-					
-					<div className="nine columns main-col">
-						<p>Backend</p>
 						
 						<div className="bars">
+							<p>Frontend</p>
 							<ul className="skills">
-								{resumeData.skills &&
-									resumeData.skills.map(item => {
-										return (
-											<li>
-												<span className={`bar-expand ${item.skillname.toLowerCase()}`}></span>
-												<em>{item.skillname}</em>
-											</li>
-										);
-									})}
+							
+								<Bar name={"React.js 16"} percentage={60}/>
+								<Bar name={"Angular 8"} percentage={60}/>
+								<Bar name={"HTML5"} percentage={55}/>
+								<Bar name={"CSS3 + SCSS"} percentage={40}/>
+							
+								
 							</ul>
 						</div>
+						
+						<div className="bars">
+							<p>Backend</p>
+							<ul className="skills">
+								
+								<Bar name={"Express"} percentage={80}/>
+								<Bar name={"Laravel"} percentage={10}/>
+								<Bar name={"Mongoose"} percentage={50}/>
+								<Bar name={"Sequelize"} percentage={20}/>
+								
+							</ul>
+						</div>
+
+						<div className="bars">
+							<p>DB</p>
+							<ul className="skills">
+								
+								<Bar name={"MongoDB"} percentage={80}/>
+								<Bar name={"MySQL"} percentage={70}/>
+								
+							</ul>
+						</div>						
+											
 					</div>
 					
 					
 				</div>
-				
 				
 				
 				<div className="row skill">
@@ -189,8 +200,10 @@ export default class Resume extends Component {
 				</div>
 			
 			
-			
 			</section>
+			
+			
+			
 		);
 	}
 }
