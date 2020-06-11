@@ -1,13 +1,16 @@
 {
-    "idleHeartbeats": 2444,
-    "navigatingHeartbeats": 1576,
-    "totalCodingHeartbeats": 5882,
+    "idleHeartbeats": 2519,
+    "navigatingHeartbeats": 1581,
+    "totalCodingHeartbeats": 5942,
     "languageHeartbeats": {
         "javascript": 3918,
         "html": 44,
         "css": 1140,
         "javascriptreact": 724,
-        "json": 56
+        "json": 66,
+        "scminput": 19,
+        "plaintext": 16,
+        "ignore": 15
     },
     "fileHeartbeats": {
         "src/resumeData.js": 44,
@@ -27,6 +30,9 @@
         "src/components/ContactUs.js": 257,
         "src/components/Footer.js": 341,
         "src/components/Portfolio.js": 421,
-        "package.json": 56
+        "package.json": 66,
+        "scm\\git\\scm0\\input": 19,
+        "f:\\Programación\\Bootcamp\\Proyectos\\icaruk.dev\\package.json.git": 16,
+        "f:\\Programación\\Bootcamp\\Proyectos\\icaruk.dev\\.gitignore": 15
     }
 }
