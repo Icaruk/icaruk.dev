@@ -1,12 +1,13 @@
 {
-    "idleHeartbeats": 2416,
-    "navigatingHeartbeats": 1530,
-    "totalCodingHeartbeats": 5826,
+    "idleHeartbeats": 2444,
+    "navigatingHeartbeats": 1576,
+    "totalCodingHeartbeats": 5882,
     "languageHeartbeats": {
         "javascript": 3918,
         "html": 44,
         "css": 1140,
-        "javascriptreact": 724
+        "javascriptreact": 724,
+        "json": 56
     },
     "fileHeartbeats": {
         "src/resumeData.js": 44,
@@ -25,6 +26,7 @@
         "public/css/default.css": 181,
         "src/components/ContactUs.js": 257,
         "src/components/Footer.js": 341,
-        "src/components/Portfolio.js": 421
+        "src/components/Portfolio.js": 421,
+        "package.json": 56
     }
 }
