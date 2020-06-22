@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b33624cdd3760b61383e",
-    "url": "/icaruk.dev/static/css/main.97657b08.chunk.css"
+    "revision": "b31e95f6278024c14526",
+    "url": "/icaruk.dev/static/css/main.a298ad95.chunk.css"
   },
   {
-    "revision": "b33624cdd3760b61383e",
-    "url": "/icaruk.dev/static/js/main.b33624cd.chunk.js"
+    "revision": "b31e95f6278024c14526",
+    "url": "/icaruk.dev/static/js/main.b31e95f6.chunk.js"
   },
   {
     "revision": "2261685204a8e4ece695",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/icaruk.dev/static/js/runtime~main.cad7d428.js"
   },
   {
-    "revision": "91c6fda79c0210861c04d6037e6242cd",
+    "revision": "f2d35d0fa049f441af47f504074677bc",
     "url": "/icaruk.dev/index.html"
   }
 ];
