@@ -19,7 +19,7 @@ export default class About extends Component {
 						<h2>Sobre mi</h2>
 						
 						<p>
-							Estudié sonido mientras aprendía a programar a cabezazos en un lenguage que nadie conoce.
+							Estudié sonido mientras aprendía a programar a cabezazos en un lenguaje que nadie conoce.
 							Trabajé como técnico de sonido (y de audiovisuales en general) mientras desarrollaba un videojuego.
 							Para hacer un cambio en mi vida hice el bootcamp de Full Stack Developer de GeeksHubs y desde entonces no paro de aprender.
 						</p>

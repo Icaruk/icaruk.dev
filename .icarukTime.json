@@ -1,9 +1,9 @@
 {
     "idleHeartbeats": 2519,
     "navigatingHeartbeats": 1581,
-    "totalCodingHeartbeats": 5942,
+    "totalCodingHeartbeats": 5946,
     "languageHeartbeats": {
-        "javascript": 3918,
+        "javascript": 3922,
         "html": 44,
         "css": 1140,
         "javascriptreact": 724,
@@ -15,7 +15,7 @@
     "fileHeartbeats": {
         "src/resumeData.js": 44,
         "src/components/Header.js": 567,
-        "src/components/About.js": 539,
+        "src/components/About.js": 543,
         "src/components/Resume.js": 1670,
         "public/index.html": 44,
         "public/js/init.js": 16,
