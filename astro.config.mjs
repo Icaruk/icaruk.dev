@@ -25,6 +25,10 @@ export default defineConfig({
 					autogenerate: { directory: "work" },
 				},
 			],
+			customCss: ["./src/assets/landing.css"],
+			editLink: {
+				baseUrl: "https://github.com/icaruk/icaruk.dev/edit/main/",
+			},
 		}),
 	],
 });

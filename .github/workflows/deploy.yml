@@ -1,0 +1,36 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: 'Install pnpm'
+      uses: pnpm/action-setup@v4
+      with:
+        version: 8
+      
+    - name: Executing remote command
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ vars.HOST }}
+        username: ${{ vars.USERNAME }}
+        port: ${{ vars.PORT }}
+        key: ${{ secrets.SSH_KEY }}
+        script: |
+          export VOLTA_HOME=/home/icaruk/.volta
+          sudo ln -s "$VOLTA_HOME/bin/pm2" "/usr/local/bin/pm2"
+          # sudo ln -s "$VOLTA_HOME/bin/pnpm" "/usr/local/bin/pnpm"
+          cd /home/icaruk/projects/icaruk.dev
+          git pull
+          pnpm install
+          pnpm run build
+          pm2 reload icaruk.dev

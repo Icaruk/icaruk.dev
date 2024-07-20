@@ -1,0 +1,36 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Autoversion CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  autoversion:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v4'
+        with:
+          ref: ${{ github.ref }}
+
+      - name: 'Automated version bump'
+        uses: 'phips28/gh-action-bump-version@master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          major-wording:  'major'
+          minor-wording:  'add,new,minor'
+          patch-wording:  'patch,fix,fixes,patch'
+          # tag-prefix:  ''
+          # target-branch: 'dev'
+          commit-message: '[version] {{version}} [skip ci]'
+          
