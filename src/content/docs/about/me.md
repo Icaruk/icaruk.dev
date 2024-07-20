@@ -14,5 +14,13 @@ My strengths are:
 - 📄 Documentation
 - 🏆 Teamwork
 
+I'm proficient with:
+
+  - Javascript + Node.js
+  - Express / Fastify
+  - React
+  - MongoDB
+
+
 You can see some of my code in my [Github](https://github.com/icaruk).  
 You can contact me through my [Linkedin](https://www.linkedin.com/in/adrian-tortajada/).
