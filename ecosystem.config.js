@@ -1,4 +1,4 @@
-module.exports = {
+export const ecosystemConfig = {
 	apps: [
 		{
 			name: "icarukdev",
