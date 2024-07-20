@@ -6,7 +6,7 @@ module.exports = {
 			log_date_format: "DD/MM/YYYY HH:mm:ss Z",
 
 			env: {
-				PM2_SERVE_PATH: ".",
+				PM2_SERVE_PATH: ".dist",
 				PM2_SERVE_PORT: 8200,
 				PM2_SERVE_SPA: "true",
 				PM2_SERVE_HOMEPAGE: "./index.html",
