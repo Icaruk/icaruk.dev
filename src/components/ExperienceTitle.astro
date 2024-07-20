@@ -1,0 +1,28 @@
+---
+// Usage: <ExperienceTitle title="Shakers" imageSrc={shakersLogo} altImg="Shakers logo" subtitle="Full stack developer" />
+import { Image } from "astro:assets";
+
+const { imageSrc, altImg, title, titleHref, subtitle } = Astro.props;
+---
+
+
+<div class="row">
+	<div><Image src={imageSrc} alt={altImg} width={"48"} height={"48"} /></div>
+	<a class="title" href={titleHref}>{title}</a>
+</div>
+
+<p>{subtitle}</p>
+
+<style>
+	.row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		column-gap: 1rem;
+	}
+	
+	.title {
+		font-size: 1.75rem;
+		font-weight: bold;
+	}
+</style>

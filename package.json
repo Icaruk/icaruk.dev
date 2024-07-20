@@ -1,32 +1,17 @@
 {
-	"name": "resume",
-	"version": "0.1.0",
-	"private": true,
-	"homepage": "https://icaruk.github.io/icaruk.dev/",
-	"dependencies": {
-		"react": "^16.6.0",
-		"react-dom": "^16.6.0",
-		"react-reveal": "^1.2.2",
-		"react-scripts": "2.1.1"
-	},
+	"name": "icaruk.dev",
+	"type": "module",
+	"version": "2.0.0",
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
 	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	],
-	"devDependencies": {
-		"gh-pages": "^3.0.0"
+	"dependencies": {
+		"@astrojs/starlight": "^0.25.1",
+		"astro": "^4.12.2",
+		"sharp": "^0.32.5"
 	}
 }

@@ -1,0 +1,39 @@
+---
+title: Experience
+description: My previous work experience
+sidebar:
+  order: 1
+---
+
+import { Card } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import shakersLogo from '../../../assets/shakers_logo.webp';
+import ganaEnergiaLogo from '../../../assets/gana_energia_logo.webp';
+import ExperienceTitle from "../../../components/ExperienceTitle.astro"
+
+
+
+<Card>
+	<ExperienceTitle title="Shakers" titleHref="https://shakersworks.com" imageSrc={shakersLogo} altImg="Shakers logo" />
+	
+	<b>Full stack developer</b>  
+	21/03/2022 → Today
+	
+	- Javascript, Typescript, Node.js
+	- Express, NestJs
+	- MongoDB
+	- React, Next.js
+</Card>
+
+<Card>
+	<ExperienceTitle title="Gana energía" titleHref="https://ganaenegia.com" imageSrc={ganaEnergiaLogo} altImg="Gana Energia logo" />
+	
+	<b>Full stack developer</b>  
+	14/02/2020 → 18/03/2022
+	
+	- Javascript, Node.js
+	- Express, Fastify
+	- MongoDB
+	- React, Next.js
+</Card>
+
