@@ -7,11 +7,13 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"serve": "serve -p 8200 dist"
 	},
 	"dependencies": {
 		"@astrojs/starlight": "^0.25.1",
 		"astro": "^4.12.2",
-		"sharp": "^0.32.5"
+		"serve": "^14.2.3",
+		"sharp": "^0.33.4"
 	}
 }

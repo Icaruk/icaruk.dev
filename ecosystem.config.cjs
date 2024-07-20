@@ -2,7 +2,8 @@ module.exports = {
 	apps: [
 		{
 			name: "icarukdev",
-			script: "serve",
+			script: "npm",
+			args: "run serve",
 
 			log_date_format: "DD/MM/YYYY HH:mm:ss Z",
 
@@ -16,10 +17,6 @@ module.exports = {
 			env: {
 				NODE_ENV: "production",
 				TZ: "Europe/Madrid",
-				PM2_SERVE_PATH: "dist",
-				PM2_SERVE_PORT: 8200,
-				PM2_SERVE_SPA: true,
-				PM2_SERVE_HOMEPAGE: "/index.html",
 			},
 		},
 	],
