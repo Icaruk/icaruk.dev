@@ -1,7 +1,7 @@
 module.exports = {
 	apps: [
 		{
-			name: "icarukdev",
+			name: "icaruk.dev",
 			script: "npm",
 			args: "run serve",
 
