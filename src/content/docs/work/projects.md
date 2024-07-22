@@ -108,7 +108,7 @@ _Albion Profit is a tool for the game <a href="https://albiononline.com/home" ta
 
 - [Trapping rain water](https://github.com/Icaruk/lluvia): This is my solution to the Trapping Rain Water challenge. [Demo here](https://icaruk.github.io/lluvia/).
 - [DungeonJS](https://github.com/Icaruk/dungeonJS): One of my first javascript projects, it's a simple game where you need to find the key to enter the door to the next level, the level generation is procedural. If you hold the space bar a "bot" will play for you. [Demo here](https://icaruk.github.io/dungeonJS/).
-- [Ojson](https://icaruk.github.io/ojoson): JSON visualizer done while learning Svelte.
+- [Ojson](https://github.com/Icaruk/ojoson): JSON visualizer done while learning Svelte. [Demo here](https://icaruk.github.io/ojoson/).
 
 
 
