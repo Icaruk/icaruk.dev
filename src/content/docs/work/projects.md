@@ -21,23 +21,28 @@ _All of them have 0 dependencies._
 
 
 
-## apps
+## Apps
 
 <details>
 <summary>Agora</summary>
 
 https://agora.icaruk.dev
 
-_Agora es una aplicación web que te ayuda a llevar las tareas de la casa al día de forma organizada.  
-Además puedes llevar un control de stock de todos los alimentos para generar listas de compra de forma automática._
+_Agora is a web application that helps you keep your household chores up to date in an organized way.
+You can also keep track of the stock of all your groceries to generate shopping lists automatically._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
 	<img src="https://i.imgur.com/4Ha6qAg.png" style="height: 300px;">
 	<img src="https://i.imgur.com/FobmwKq.png" style="height: 300px;">
 	<img src="https://i.imgur.com/iSAZB6B.png" style="height: 300px;">
 </div>
-	
+
+- React + MobX + Mantine
+- Fastify
+- SurrealDB
+
 </details>
+
 
 
 <details>
@@ -45,16 +50,65 @@ Además puedes llevar un control de stock de todos los alimentos para generar li
 
 https://economos.app
 
-_Economos es el gestor de dinero que te permite categorizar y visualizar tus gastos e ingresos de forma eficiente y flexible.  
-Con esa información tendrás la perspectiva que necesitas para tomar decisiones sobre tu dinero._
+_Economos is the money manager that allows you to categorize and visualize your expenses and income in an efficient and flexible way.  
+With this information you will have the perspective you need to make decisions about your money._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
 	<img src="https://economos.app/img/mockup_app.png" style="height: 300px;">
 	<img src="https://economos.app/img/mockup_month.png" style="height: 300px;">
 	<img src="https://economos.app/img/mockup_year.png" style="height: 300px;">
 </div>
+
+- React + MobX + Ant Design
+- Fastify
+- MongoDB
+
+</details>
+
+
+
+<details>
+<summary>Tres en raya</summary>
+
+https://tresenraya.icaruk.dev
+
+_Tic tac toe game vs computer. The computer is smart, but not perfect. No login required. Ranked leaderboards._
+
+<div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
+	<img src="https://i.gyazo.com/0e65ed6980aa63fe524dda97b08e34e3.png" style="height: 300px;">
+</div>
+
+- React + Ant Design
+- Fastify
+- MongoDB
+
+</details>
+
+
+
+<details>
+<summary>Albion profit</summary>
+
+https://icaruk.github.io/albion-profit
+
+_Albion Profit is a tool for the game <a href="https://albiononline.com/home" target="_blank">"Albion Online"</a> that enables users to semi-automatically calculate the profit of any combination of one product with multiple ingredients. Is multiserver and multilanguage._
+
+<div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
+	<img src="https://github.com/user-attachments/assets/5f0765fd-0fc7-4318-99a7-d29cdd799f9f" style="height: 300px;">
+</div>
+
+- React + MobX
+- Inlang
 	
 </details>
+
+
+
+## For fun
+
+- [Trapping rain water](https://github.com/Icaruk/lluvia): This is my solution to the Trapping Rain Water challenge. [Demo here](https://icaruk.github.io/lluvia/).
+- [DungeonJS](https://github.com/Icaruk/dungeonJS): One of my first javascript projects, it's a simple game where you need to find the key to enter the door to the next level, the level generation is procedural. If you hold the space bar a "bot" will play for you. [Demo here](https://icaruk.github.io/dungeonJS/).
+- [Ojson](https://icaruk.github.io/ojoson): JSON visualizer done while learning Svelte.
 
 
 
