@@ -13,7 +13,7 @@ My strengths are:
 - 🧹 Clean and scalable code
 - 📄 Documentation
 - 🏆 Teamwork
-- ⭐ Passionate about new technology
+- ⭐ Passion about new technology
 
 You can see some of my code in my [Github](https://github.com/icaruk).  
 You can contact me through my [Linkedin](https://www.linkedin.com/in/adrian-tortajada/).
