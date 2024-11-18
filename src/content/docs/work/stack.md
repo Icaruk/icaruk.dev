@@ -34,7 +34,7 @@ sidebar:
 
 ## Testing:
 
-- Experienced with Jest and [Vitest]/https://vitest.dev)
+- Experienced with Jest and [Vitest](https://vitest.dev)
 
 ## UI libraries
 
