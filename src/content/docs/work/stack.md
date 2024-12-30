@@ -5,34 +5,41 @@ sidebar:
   order: 2
 ---
 
-## Languages
+## Languages:
 
-- **Javascript**
-- **Typescript**
-- Learning:
-	- Go
+- Highly proficient in Javascript and Node.js
+- Experienced with Typescript
+- Learning Go
 
-## Backend frameworks
+## Backend:
 
-- [**Express**](https://expressjs.com)
-- [**Fastify**](https://fastify.dev)
-- [**NestJs**](https://nestjs.com)
+- Highly proficient in [Express](https://expressjs.com), [Fastify](https://fastify.dev) and [Socket.io](https://socket.io)
+- Experienced with [NestJs](https://nestjs.com)
 
-## Databases
+## Databases:
 
-- [**MongoDB**](https://www.mongodb.com)
-- Learning:
-	- [SurrealDB](https://surrealdb.com)
+- Highly proficient in [MongoDB](https://www.mongodb.com)
+- Experienced with [SurrealDB](https://surrealdb.com) (SQL syntax)
 
-## Frontend frameworks
+## Frontend:
 
-- [**React**](https://react.dev)
-- [**Next.js**](https://nextjs.org)
-- Learning:
-	- [Svelte](https://svelte.dev)
-	
+- Highly proficient in [React](https://react.dev) and [Next.js](https://nextjs.org)
+- Experienced with [Svelte](https://svelte.dev)
+
+## DevOps:
+
+- Linux, Ubuntu
+- PM2
+- Github, Gitlab
+
+## Testing:
+
+- Experienced with Jest and [Vitest](https://vitest.dev)
+
 ## UI libraries
 
 - [Mantine](https://mantine.dev)
 - [Material UI](https://mui.com)
 - [Ant Design](https://ant.design)
+
+	

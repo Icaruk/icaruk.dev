@@ -23,7 +23,7 @@ I spent more than **7500 hours** on these projects.
 
 ## Part 2
 
-Working as sound engineer on [FLUGE](https://www.fluge.es) (Viñarock festival and others), various orchestras, my home studio, [Marina d'Or](https://www.magicworldresort.com) and other audiovisual event enterprises, was too time consuming, so I had no time or energy left to code.
+Working as sound technician on [FLUGE](https://www.fluge.es) (Viñarock festival and others), various orchestras, my home studio, [Marina d'Or](https://www.magicworldresort.com) and other audiovisual event enterprises, was too time consuming, so I had no time or energy left to code.
 
 
 
