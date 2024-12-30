@@ -2791,12 +2791,6 @@ snapshots:
   '@rollup/rollup-android-arm64@4.24.3':
     optional: true
 
-  '@rollup/rollup-android-arm-eabi@4.24.3':
-    optional: true
-
-  '@rollup/rollup-android-arm64@4.24.3':
-    optional: true
-
   '@rollup/rollup-darwin-arm64@4.24.3':
     optional: true
 
