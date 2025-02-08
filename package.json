@@ -8,12 +8,18 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"serve": "serve -p 8200 dist"
+		"serve": "serve -p 9700 dist"
 	},
 	"dependencies": {
 		"@astrojs/starlight": "^0.25.1",
 		"astro": "^4.16.18",
 		"serve": "^14.2.3",
 		"sharp": "^0.33.4"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"sharp"
+		]
 	}
 }
