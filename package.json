@@ -11,10 +11,10 @@
 		"serve": "serve -p 9700 dist"
 	},
 	"dependencies": {
-		"@astrojs/starlight": "^0.25.1",
-		"astro": "^4.16.18",
-		"serve": "^14.2.3",
-		"sharp": "^0.33.4"
+		"@astrojs/starlight": "^0.32.0",
+		"astro": "^5.3.0",
+		"serve": "^14.2.4",
+		"sharp": "^0.33.5"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [

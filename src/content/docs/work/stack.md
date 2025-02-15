@@ -29,7 +29,7 @@ sidebar:
 ## DevOps:
 
 - Linux, Ubuntu
-- PM2
+- PM2, Nginx
 - Github, Gitlab
 
 ## Testing:

@@ -7,11 +7,25 @@ sidebar:
 
 import { Card } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
+import fourvenuesLogo from '../../../assets/fourvenues_logo.webp';
 import shakersLogo from '../../../assets/shakers_logo.webp';
 import ganaEnergiaLogo from '../../../assets/gana_energia_logo.webp';
 import ExperienceTitle from "../../../components/ExperienceTitle.astro"
 
 
+
+<Card>
+	<ExperienceTitle title="Fourvenues" titleHref="https://www.fourvenues.com" imageSrc={fourvenuesLogo} altImg="Fourvenues logo" />
+	
+	<b>Backend developer</b>  
+	12/2025 → today
+	
+	- Typescript, Node.js
+	- Fastify
+	- MongoDB
+	- DDD + hexagonal architecture
+	- Testing: e2e, unit, integration with jest
+</Card>
 
 <Card>
 	<ExperienceTitle title="Shakers" titleHref="https://shakersworks.com" imageSrc={shakersLogo} altImg="Shakers logo" />
