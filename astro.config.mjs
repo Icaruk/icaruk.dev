@@ -8,9 +8,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Adrian "Icaruk"',
-			social: {
-				github: "https://github.com/icaruk",
-			},
+			social: [
+				{
+					icon: "github",
+					label: "Github",
+					href: "https://github.com/icaruk",
+				}
+			],
 			sidebar: [
 				{
 					label: "Home",
