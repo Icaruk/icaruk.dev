@@ -5,6 +5,11 @@ sidebar:
   order: 3
 ---
 
+## VScode extensions
+
+- ⭐ [HoverLookup](https://marketplace.visualstudio.com/items?itemName=Icaruk.hoverlookup) Instantly see what those IDs, codes, and numbers mean by hovering over them in your code.
+- [Mementos](https://marketplace.visualstudio.com/items?itemName=Icaruk.mementos) Enhances your productivity by providing visual cues and easy navigation to your important areas with specific and configurable comments.
+
 ## NPM packages
 
 _All of them have 0 dependencies._
