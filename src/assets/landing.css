@@ -28,3 +28,63 @@
 	filter: drop-shadow(0 0 3rem var(--overlay-blurple));
 	width: 250px;
 }
+
+@view-transition {
+	navigation: auto;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(5px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation-duration: 0.25s;
+	animation-timing-function: ease-in-out;
+}
+
+::view-transition-old(root) {
+	animation-name: fadeOut;
+}
+
+::view-transition-new(root) {
+	animation-name: fadeIn;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html {
+	view-transition-name: root;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(10px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation-duration: 0.25s;
+	animation-timing-function: ease-in-out;
+}
+
+::view-transition-old(root) {
+	animation-name: fadeOut;
+}
+
+::view-transition-new(root) {
+	animation-name: fadeIn;
+}
