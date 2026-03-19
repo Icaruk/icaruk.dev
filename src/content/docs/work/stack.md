@@ -7,13 +7,13 @@ sidebar:
 
 ## Languages:
 
-- Highly proficient in Javascript and Node.js
+- Highly proficient in Javascript
 - Experienced with Typescript
 - Learning Go
 
 ## Backend:
 
-- Highly proficient in [Express](https://expressjs.com), [Fastify](https://fastify.dev) and [Socket.io](https://socket.io)
+- Highly proficient in [Node.js](https://nodejs.org/es), [Express](https://expressjs.com), [Fastify](https://fastify.dev) and [Socket.io](https://socket.io)
 - Experienced with [NestJs](https://nestjs.com)
 
 ## Databases:
