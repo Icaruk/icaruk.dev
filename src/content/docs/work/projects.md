@@ -123,14 +123,6 @@ _Albion Profit is a tool for the game <a href="https://albiononline.com/home" ta
 
 
 
-## VSCode extensions
-
-- [mementos](https://marketplace.visualstudio.com/items?itemName=Icaruk.mementos): Enhances productivity by providing visual cues and easy navigation to important areas with specific and configurable comments.
-- [icarukTime](https://marketplace.visualstudio.com/items?itemName=Icaruk.icaruktime): Measures the time you spend on each project, language and file, offline.
-- [Tab filler](https://marketplace.visualstudio.com/items?itemName=Icaruk.tabfiller): It fills with tabs the lines that should be tabbed.
-
-
-
 ## Tutorials
 
 - [Javascript](https://github.com/Icaruk/icaruk-tutorial-programacion)
