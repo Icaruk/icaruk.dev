@@ -4,6 +4,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
 	output: "static",
+	site: "https://icaruk.dev",
 
 	integrations: [
 		starlight({
