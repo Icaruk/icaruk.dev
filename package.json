@@ -8,7 +8,8 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"serve": "serve -p 9700 dist"
+		"serve": "npx sirv-cli@latest dist --port 9700 --host --gzip --immutable",
+		"serve_old": "serve -p 9700 dist"
 	},
 	"dependencies": {
 		"@astrojs/starlight": "^0.38.1",
