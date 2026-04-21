@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-## Apps
+## Web apps
 
 - ⭐ [Epoch](https://github.com/Icaruk/epoch) Unix epoch timestamp converter: convert between epoch timestamps (milliseconds, seconds or ISO 8601) and human-readable dates with automatic timezone detection.
 - [Permutations and combinations](https://github.com/Icaruk/permutations-and-combinations) Permutations and combinations generator.
@@ -32,7 +32,7 @@ _All of them have 0 dependencies._
 
 
 
-## Apps
+## Projects
 
 <details>
 <summary>Agora</summary>
@@ -43,36 +43,14 @@ _Agora is a web application that helps you keep your household chores up to date
 You can also keep track of the stock of all your groceries to generate shopping lists automatically._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://i.imgur.com/4Ha6qAg.png" style="height: 300px;">
-	<img src="https://i.imgur.com/FobmwKq.png" style="height: 300px;">
-	<img src="https://i.imgur.com/iSAZB6B.png" style="height: 300px;">
+	<img src="https://i.imgur.com/4Ha6qAg.png" style="height: 300px;" alt="Agora app main interface showing household chores list">
+	<img src="https://i.imgur.com/FobmwKq.png" style="height: 300px;" alt="Agora app grocery stock management view">
+	<img src="https://i.imgur.com/iSAZB6B.png" style="height: 300px;" alt="Agora app automatic shopping list generation">
 </div>
 
 - React + MobX + Mantine
 - Fastify
 - SurrealDB
-
-</details>
-
-
-
-<details>
-<summary>Economos</summary>
-
-https://economos.app
-
-_Economos is the money manager that allows you to categorize and visualize your expenses and income in an efficient and flexible way.  
-With this information you will have the perspective you need to make decisions about your money._
-
-<div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://economos.app/img/mockup_app.png" style="height: 300px;">
-	<img src="https://economos.app/img/mockup_month.png" style="height: 300px;">
-	<img src="https://economos.app/img/mockup_year.png" style="height: 300px;">
-</div>
-
-- React + MobX + Ant Design
-- Fastify
-- MongoDB
 
 </details>
 
@@ -86,7 +64,7 @@ https://tresenraya.icaruk.dev
 _Tic tac toe game vs computer. The computer is smart, but not perfect. No login required. Ranked leaderboards._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://i.gyazo.com/0e65ed6980aa63fe524dda97b08e34e3.png" style="height: 300px;">
+	<img src="https://i.gyazo.com/0e65ed6980aa63fe524dda97b08e34e3.png" style="height: 300px;" alt="Tic tac toe game interface showing game board and leaderboard">
 </div>
 
 - React + Ant Design
@@ -102,10 +80,10 @@ _Tic tac toe game vs computer. The computer is smart, but not perfect. No login 
 
 https://icaruk.github.io/albion-profit
 
-_Albion Profit is a tool for the game <a href="https://albiononline.com/home" target="_blank">"Albion Online"</a> that enables users to semi-automatically calculate the profit of any combination of one product with multiple ingredients. Is multiserver and multilanguage._
+_Albion Profit is a tool for the game <a href="https://albiononline.com/home" target="_blank" rel="noopener noreferrer">"Albion Online"</a> that enables users to semi-automatically calculate the profit of any combination of one product with multiple ingredients. Is multiserver and multilanguage._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://github.com/user-attachments/assets/5f0765fd-0fc7-4318-99a7-d29cdd799f9f" style="height: 300px;">
+	<img src="https://github.com/user-attachments/assets/5f0765fd-0fc7-4318-99a7-d29cdd799f9f" style="height: 300px;" alt="Albion profit calculator interface showing product and ingredient combination">
 </div>
 
 - React + MobX

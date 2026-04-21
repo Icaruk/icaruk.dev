@@ -1,5 +1,10 @@
 ---
 import StarlightHead from '@astrojs/starlight/components/Head.astro';
+const isHome = Astro.url.pathname === '/';
 ---
 
 <StarlightHead />
+
+{isHome && <script is:inline>
+  document.querySelector('meta[property="og:type"]').setAttribute('content', 'website');
+</script>}
