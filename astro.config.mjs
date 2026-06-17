@@ -27,11 +27,11 @@ export default defineConfig({
 			},
 			{
 				label: "About me",
-				autogenerate: { directory: "about" },
+				items: [{ autogenerate: { directory: "about" } }],
 			},
 			{
 				label: "Work",
-				autogenerate: { directory: "work" },
+				items: [{ autogenerate: { directory: "work" } }],
 			},
 		],
 		customCss: ["./src/assets/landing.css"],
