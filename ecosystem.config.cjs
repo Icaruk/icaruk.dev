@@ -2,7 +2,7 @@ module.exports = {
 	apps: [
 		{
 			name: "icaruk.dev",
-			script: "npm",
+			script: "npm", interpreter: "none",
 			args: "run serve",
 
 			log_date_format: "DD/MM/YYYY HH:mm:ss Z",
