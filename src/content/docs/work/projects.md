@@ -40,7 +40,11 @@ _All of them have 0 dependencies._
 
 https://economos.app
 
-_Economos is a web application to manage your home: track household expenses, manage your pantry inventory, and organize daily tasks. Built for families and flatmates.
+_Economos is a web application to manage your home: track household expenses, manage your pantry inventory, and organize daily tasks. Built for families and flatmates._
+
+<div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
+	<img src="https://github.com/user-attachments/assets/5c6bea7d-6f0a-455b-bcb2-002b7393a71a" style="height: 300px;" alt="Economos app screenshots" />
+</div>
 
 - React + MobX + Mantine
 - Fastify
@@ -58,7 +62,7 @@ https://tresenraya.icaruk.dev
 _Tic tac toe game vs computer. The computer is smart, but not perfect. No login required. Ranked leaderboards._
 
 <div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://i.gyazo.com/0e65ed6980aa63fe524dda97b08e34e3.png" style="height: 300px;" alt="Tic tac toe game interface showing game board and leaderboard">
+	<img src="https://github.com/user-attachments/assets/052606aa-7b02-4abb-9d2a-57dde0dcde3a" style="height: 300px;" alt="Tic tac toe game interface showing game board and leaderboard">
 </div>
 
 - React + Ant Design
