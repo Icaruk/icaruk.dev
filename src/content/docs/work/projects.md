@@ -13,7 +13,8 @@ sidebar:
 
 ## VScode extensions
 
-- ⭐ [HoverLookup](https://marketplace.visualstudio.com/items?itemName=Icaruk.hoverlookup) Instantly see what those IDs, codes, and numbers mean by hovering over them in your code.
+- ⭐ [Safe Extension Updater](https://marketplace.visualstudio.com/items?itemName=Icaruk.safe-extension-updater) Checks your extensions for updates and blocks known malicious ones before you install them.
+- [HoverLookup](https://marketplace.visualstudio.com/items?itemName=Icaruk.hoverlookup) Instantly see what those IDs, codes, and numbers mean by hovering over them in your code.
 - [Mementos](https://marketplace.visualstudio.com/items?itemName=Icaruk.mementos) Enhances your productivity by providing visual cues and easy navigation to your important areas with specific and configurable comments.
 
 ## NPM packages
