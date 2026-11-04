@@ -40,7 +40,7 @@ _All of them have 0 dependencies._
 
 https://economos.app
 
-_Agora is a web application to manage your home: track household expenses, manage your pantry inventory, and organize daily tasks. Built for families and flatmates.
+_Economos is a web application to manage your home: track household expenses, manage your pantry inventory, and organize daily tasks. Built for families and flatmates.
 
 - React + MobX + Mantine
 - Fastify
