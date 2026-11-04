@@ -36,18 +36,11 @@ _All of them have 0 dependencies._
 ## Projects
 
 <details>
-<summary>Agora</summary>
+<summary>Economos</summary>
 
-https://agora.icaruk.dev
+https://economos.app
 
-_Agora is a web application that helps you keep your household chores up to date in an organized way.
-You can also keep track of the stock of all your groceries to generate shopping lists automatically._
-
-<div style="display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.5rem">
-	<img src="https://i.imgur.com/4Ha6qAg.png" style="height: 300px;" alt="Agora app main interface showing household chores list">
-	<img src="https://i.imgur.com/FobmwKq.png" style="height: 300px;" alt="Agora app grocery stock management view">
-	<img src="https://i.imgur.com/iSAZB6B.png" style="height: 300px;" alt="Agora app automatic shopping list generation">
-</div>
+_Agora is a web application to manage your home: track household expenses, manage your pantry inventory, and organize daily tasks. Built for families and flatmates.
 
 - React + MobX + Mantine
 - Fastify
